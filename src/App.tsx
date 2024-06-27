@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Login from "./pages/Login/Login";
 import "./App.scss";
-import Main from "./pages/Dashboard/main";
+import Dashboard from "./pages/UserDashboard/Dashboard";
 
 const App: React.FC = () => {
   return (
@@ -10,7 +10,7 @@ const App: React.FC = () => {
       <div className="app">
         <Routes>
           <Route path="/" element={<Login />} />
-          <Route path="/dashboard/*" element={<Main />} />
+          <Route path="/dashboard/*" element={<Dashboard />} />
           {/* You can add more routes here as needed */}
         </Routes>
       </div>

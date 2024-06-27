@@ -19,12 +19,11 @@
 .logo{
     width: 90%;
     margin-top: 70px;
-    padding-left: 0px;
+    margin-left: 10%;
 
     img{
         width: 173.76px;
         height: 36px;
-        margin-left: 0px;
     }
 
 }
@@ -69,6 +68,7 @@
         width: 70%;
         height: auto;
         margin-right: 5%;
+        margin-top: -100px;
 
         @media screen and (max-width: 461px){
             margin-left: 7.5%;

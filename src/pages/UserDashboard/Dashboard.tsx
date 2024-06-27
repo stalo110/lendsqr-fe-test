@@ -1,12 +1,12 @@
 import React from 'react';
-import './Dashboard.scss';
 import Sidebar from '../../components/Sidebar/Sidebar';
 import Navbar from '../../components/Navbar/Navbar';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Users from './pages/Users/Users';
 import UserDetails from './pages/Users/UserDetails';
+import './Dashboard.scss';
 
-const Main: React.FC = () => {
+const Dashboard: React.FC = () => {
     return (
         <div className="dashboard-container">
             <Router>
@@ -24,4 +24,4 @@ const Main: React.FC = () => {
     );
 };
 
-export default Main;
+export default Dashboard;
