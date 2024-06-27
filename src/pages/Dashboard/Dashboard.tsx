@@ -4,7 +4,7 @@ import Sidebar from '../../components/Sidebar/Sidebar';
 import Navbar from '../../components/Navbar/Navbar';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Users from './pages/Users/Users';
-import UserDetails from './pages/Users/userDetails';
+import UserDetails from './pages/Users/UserDetails';
 
 const Dashboard: React.FC = () => {
     return (
