@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Users from './pages/Users/Users';
 import UserDetails from './pages/Users/UserDetails';
 
-const Dashboard: React.FC = () => {
+const Main: React.FC = () => {
     return (
         <div className="dashboard-container">
             <Router>
@@ -24,4 +24,4 @@ const Dashboard: React.FC = () => {
     );
 };
 
-export default Dashboard;
+export default Main;

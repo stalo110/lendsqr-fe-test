@@ -88,7 +88,7 @@ const Login: React.FC = () => {
 
         <form>
           <h1>Welcome!</h1>
-          <p>Enter your details</p>
+          <p>Enter details to login.</p>
           <div className="L-form-group">
             <input
               type="email"
